@@ -5,7 +5,7 @@ Proyecto de aplicación del clima construida con Flutter bajo los principios de 
 
 El flujo actual permite obtener el clima de cualquier ciudad o de la ubicación actual del usuario, mostrando detalles extendidos como humedad, sensación térmica, viento, presión, visibilidad e índice UV. 
 
-📌 Estado actual
+## 📌 Estado actual
 Fase | Estado | Resultado
 ---|---|---
 ✅ **Arquitectura Base** | Completada | Capas Domain, Infrastructure y Presentation totalmente desacopladas.
@@ -15,7 +15,7 @@ Fase | Estado | Resultado
 ✅ **Seguridad** | Completada | Ocultamiento de la API Key mediante variables de entorno (`.env`).
 📊 **Visualizaciones** | Completada | Implementado Wrap con métricas completas y diseño responsivo.
 
-🧰 Requisitos
+## 🧰 Requisitos
 - Flutter SDK 3.12+
 - Dart SDK
 - Dependencias definidas en `pubspec.yaml`
@@ -27,7 +27,7 @@ Este proyecto utiliza las siguientes librerías adicionales:
 - **geolocator (>=13.0.0):** Para solicitar permisos de GPS y obtener la latitud/longitud del usuario.
 - **flutter_dotenv (>=5.2.1):** Para leer la API Key de forma segura desde un archivo `.env` local.
 
-🚀 Instalación y Ejecución
+## 🚀 Instalación y Ejecución
 1. Clonar el repositorio:
 ```bash
 git clone https://github.com/Steven-Patino/weather_app.git
@@ -58,7 +58,7 @@ OPENWEATHER_API_KEY=tu_api_key_aqui
 flutter run
 ```
 
-⚙️ Estructura del Proyecto
+## ⚙️ Estructura del Proyecto
 El proyecto está dividido por "Features" respetando la Arquitectura Limpia:
 
 ```text
@@ -82,6 +82,6 @@ lib/
 
 Las carpetas respetan estrictamente la separación de responsabilidades: la UI nunca habla con las APIs directamente y el Dominio es completamente agnóstico sobre cómo se obtienen los datos.
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 Steven Alexander Patino Arenas
 Proyecto App del Clima con Clean Architecture.
