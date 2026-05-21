@@ -21,7 +21,7 @@ Fase | Estado | Resultado
 - Dependencias definidas en `pubspec.yaml`
 - Una API Key válida de [OpenWeatherMap](https://openweathermap.org/api)
 
-📦 Dependencias
+## 📦 Dependencias
 Este proyecto utiliza las siguientes librerías adicionales:
 - **dio (>=5.4.0):** Para realizar llamadas HTTP eficientes y manejo de excepciones de red.
 - **geolocator (>=13.0.0):** Para solicitar permisos de GPS y obtener la latitud/longitud del usuario.
@@ -84,4 +84,4 @@ Las carpetas respetan estrictamente la separación de responsabilidades: la UI n
 
 ## 👨‍💻 Autor
 Steven Alexander Patino Arenas
-Proyecto App del Clima con Clean Architecture.
+Mayo 2026
