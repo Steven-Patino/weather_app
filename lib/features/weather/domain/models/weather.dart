@@ -9,6 +9,10 @@ class Weather {
   final int pressure;
   final int visibility;
   final double uvIndex;
+  final int timezoneOffsetSeconds;
+  final int sunriseUtcSeconds;
+  final int sunsetUtcSeconds;
+  final int windDirectionDegrees;
 
   Weather({
     required this.cityName,
@@ -21,5 +25,9 @@ class Weather {
     required this.pressure,
     required this.visibility,
     required this.uvIndex,
+    required this.timezoneOffsetSeconds,
+    required this.sunriseUtcSeconds,
+    required this.sunsetUtcSeconds,
+    required this.windDirectionDegrees,
   });
 }
